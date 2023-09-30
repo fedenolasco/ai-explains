@@ -16,7 +16,7 @@
 ## Clone Repository
 * git clone [URL-of-this-GitHub-repository] to your local system.
 
-## Create virtual environ for ai-explain app
+## Create virtual environment for ai-explain app
 * /path/to/python3.11.14 -m venv ai-explain
 * Other python versions have not been tested but may run just fine.
 

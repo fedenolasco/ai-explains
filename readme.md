@@ -1,5 +1,5 @@
 # Introduction
-* This application is developed uses Python 3.11.14.
+* This application is developed using Python 3.11.14.
 * It was tested using OpenAI models released on June 13, 2023.
 * This single user application demonstrates some concepts of a multi-tenant generative AI orchestrator and includes prompt collection templates, a user prompt response generator that uses pre-existing prompt collections and a user search memory, allowing to revisit previous stored responses produced with a particular AI model.
 

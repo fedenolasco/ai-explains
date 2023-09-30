@@ -1,0 +1,62 @@
+{
+    "collectionid": "entertainment-text-based-games-20230828",
+    "collectionname": "Text-based Games Prompts",
+    "collectionusage": "This collection aims to help users in generating text-based games for entertainment and educational purposes.",
+    "collectionrelease": "2023-08-28T22:15:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based AI model trained to assist in generating interactive stories, adventures, and games. I can help you create captivating and fun text-based experiences.",
+    "systemmessageusage": "Use these prompts to brainstorm, conceptualize, or generate content for your text-based games.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Fantasy Adventure",
+            "usage": "For users interested in creating a fantasy text-based adventure game.",
+            "directive": "Create the introduction and first decision point for a fantasy text-based adventure game. Output format: Markdown.",
+            "task": "Can you create the start of a fantasy adventure game for me?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:15:00Z",
+            "promptcategory": "entertainment-text-based-games"
+        },
+        {
+            "id": 2,
+            "title": "Mystery Game",
+            "usage": "For users who want to develop a text-based game with a mystery theme.",
+            "directive": "Write a brief synopsis and the first clue for a mystery-themed text-based game. Output format: Markdown.",
+            "task": "Could you help me come up with the first clue for a mystery game?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:15:00Z",
+            "promptcategory": "entertainment-text-based-games"
+        },
+        {
+            "id": 3,
+            "title": "Sci-Fi Adventure",
+            "usage": "For users intrigued by science fiction settings.",
+            "directive": "Design the setting and main characters for a Sci-Fi text-based game. Output format: Markdown.",
+            "task": "What would be the setting and main characters for a sci-fi text-based game?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:15:00Z",
+            "promptcategory": "entertainment-text-based-games"
+        },
+        {
+            "id": 4,
+            "title": "Escape Room",
+            "usage": "For those who want to create a virtual escape room experience.",
+            "directive": "Generate the scenario and the first puzzle for a text-based escape room game. Output format: Markdown.",
+            "task": "How can I start an escape room game? What's the first puzzle?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:15:00Z",
+            "promptcategory": "entertainment-text-based-games"
+        },
+        {
+            "id": 5,
+            "title": "Role-Playing Game",
+            "usage": "For users interested in developing character-based role-playing games.",
+            "directive": "Create the profile for a player character in a text-based role-playing game. Include name, skills, and background. Output format: Markdown.",
+            "task": "Could you generate a character profile for my role-playing game?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:15:00Z",
+            "promptcategory": "entertainment-text-based-games"
+        }
+    ]
+}

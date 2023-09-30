@@ -1,0 +1,62 @@
+{
+    "collectionid": "generalknowledge-topic-20230828",
+    "collectionname": "General Knowledge Topic Prompts",
+    "collectionusage": "This collection is meant to help users gain knowledge and understanding across various subjects.",
+    "collectionrelease": "2023-08-28T23:59:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with a variety of tasks, including enriching your general knowledge on various topics like history, science, current events, and more.",
+    "systemmessageusage": "Use these prompts to explore, ask questions, and deepen your understanding on a multitude of subjects.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Understanding Climate Change",
+            "usage": "For users interested in understanding the fundamentals of climate change.",
+            "directive": "Explain the basic science behind climate change. Output format: Markdown.",
+            "task": "What are the primary causes of climate change?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "generalknowledge-topic"
+        },
+        {
+            "id": 2,
+            "title": "History of the Renaissance",
+            "usage": "For users who want to delve into the history and impact of the Renaissance period.",
+            "directive": "Describe the key events and figures of the Renaissance. Output format: Markdown.",
+            "task": "Who were the most influential artists of the Renaissance?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "generalknowledge-topic"
+        },
+        {
+            "id": 3,
+            "title": "Concepts in Modern Physics",
+            "usage": "For users curious about concepts in modern physics like quantum mechanics and relativity.",
+            "directive": "Explain the core concepts of modern physics. Output format: Markdown.",
+            "task": "What is quantum entanglement?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "generalknowledge-topic"
+        },
+        {
+            "id": 4,
+            "title": "Current Global Issues",
+            "usage": "For users interested in learning about current global issues affecting the world today.",
+            "directive": "Discuss the major global issues that are currently impacting the world. Output format: Markdown.",
+            "task": "What are some of the most pressing global issues today?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "generalknowledge-topic"
+        },
+        {
+            "id": 5,
+            "title": "Technological Advancements",
+            "usage": "For users interested in technological advancements and their impact on society.",
+            "directive": "Describe recent technological advancements and their societal impacts. Output format: Markdown.",
+            "task": "How has artificial intelligence impacted the medical field?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "generalknowledge-topic"
+        }
+    ]
+}

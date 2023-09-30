@@ -1,0 +1,115 @@
+# Log of docker elasticsearch and kibana docker install on 23-08-24
+
+# Install Elasticsearch Using Docker - https://www.elastic.co/guide/en/elasticsearch/reference/current/run-elasticsearch-locally.html
+
+# Elasticsearch Python Connection using basic authentication - https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/connecting.html#auth-basic
+
+# Python Elasticsearch Client - https://elasticsearch-py.readthedocs.io/en/v8.9.0/
+
+
+## Docker Install Example 
+✅ C:\Users\feden>docker network create elastic
+>> 3f6bff281da7fafee283af1ce85c34cf5a4c154709e36d4f9acc7427f84b3812
+
+✅ C:\Users\feden>docker pull docker.elastic.co/elasticsearch/elasticsearch:8.9.1
+8.9.1: Pulling from elasticsearch/elasticsearch
+f9175e7b73a4: Pull complete
+7ceecf917bdd: Pull complete
+5722447c4365: Pull complete
+89732bc75041: Pull complete
+77b7fd63f55a: Pull complete
+6fd9ea970a54: Pull complete
+9c46f3874f5e: Pull complete
+ae01b9c7dd90: Pull complete
+7d8705bc5737: Pull complete
+a3fa5ac7ea3d: Pull complete
+Digest: sha256:9dca16af65ed6f1a27f1960f8c67eb87fee2aaae0bf1f5a437af434f69e3ff1d
+Status: Downloaded newer image for docker.elastic.co/elasticsearch/elasticsearch:8.9.1
+docker.elastic.co/elasticsearch/elasticsearch:8.9.1
+
+What's Next?
+  View summary of image vulnerabilities and recommendations → docker scout quickview docker.elastic.co/elasticsearch/elasticsearch:8.9.1
+
+C:\Users\feden>docker run --name elasticsearch --net elastic -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -t docker.elastic.co/elasticsearch/elasticsearch:8.9.1
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ Elasticsearch security features have been automatically configured!
+✅ Authentication is enabled and cluster connections are encrypted.
+
+ℹ️  Password for the elastic user (reset with `bin/elasticsearch-reset-password -u elastic`):
+  X0TX=WmUJYajP=K+zRDR
+
+ℹ️  HTTP CA certificate SHA-256 fingerprint:
+  8af725c4f39f0b414a38803f5a1c0dac7f83f67b481a570e20269c5a43c124b9
+
+ℹ️  Configure Kibana to use this cluster:
+• Run Kibana and click the configuration link in the terminal when Kibana starts.
+• Copy the following enrollment token and paste it into Kibana in your browser (valid for the next 30 minutes):
+  eyJ2ZXIiOiI4LjkuMSIsImFkciI6WyIxNzIuMTguMC4yOjkyMDAiXSwiZmdyIjoiOGFmNzI1YzRmMzlmMGI0MTRhMzg4MDNmNWExYzBkYWM3ZjgzZjY3YjQ4MWE1NzBlMjAyNjljNWE0M2MxMjRiOSIsImtleSI6ImFHdWlLSW9CbHpDMFc4NlUtNlJEOkhlTWJzLVdtVGJDal9kcU9XYjYyR2cifQ==
+
+ℹ️ Configure other nodes to join this cluster:
+• Copy the following enrollment token and start new Elasticsearch nodes with `bin/elasticsearch --enrollment-token <token>` (valid for the next 30 minutes):
+  eyJ2ZXIiOiI4LjkuMSIsImFkciI6WyIxNzIuMTguMC4yOjkyMDAiXSwiZmdyIjoiOGFmNzI1YzRmMzlmMGI0MTRhMzg4MDNmNWExYzBkYWM3ZjgzZjY3YjQ4MWE1NzBlMjAyNjljNWE0M2MxMjRiOSIsImtleSI6ImFtdWlLSW9CbHpDMFc4NlUtNlJXOllyeS1WcjNmUm5xTVhHRHFQT2tiQ2cifQ==
+
+  If you're running in Docker, copy the enrollment token and run:
+  `docker run -e "ENROLLMENT_TOKEN=<token>" docker.elastic.co/elasticsearch/elasticsearch:8.9.1`
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+✅ C:\Users\feden>docker pull docker.elastic.co/kibana/kibana:8.9.1
+8.9.1: Pulling from kibana/kibana
+f9175e7b73a4: Already exists
+a297b0532e1f: Pull complete
+2fc7c1dcd340: Pull complete
+45499b53179a: Pull complete
+1244a55fe4a1: Pull complete
+89732bc75041: Pull complete
+b029c938ed5e: Pull complete
+b1c3fe59723a: Pull complete
+196aaf0e5615: Pull complete
+d5a0d11fa9ac: Pull complete
+ef8c18a35f06: Pull complete
+79fddc393150: Pull complete
+79b85d016c68: Pull complete
+337c99c19bfb: Pull complete
+Digest: sha256:8a973aefa3268cd92dbdc18f071bc6d4ece968fb39db41b7664b02e718007be7
+Status: Downloaded newer image for docker.elastic.co/kibana/kibana:8.9.1
+docker.elastic.co/kibana/kibana:8.9.1
+
+What's Next?
+  View summary of image vulnerabilities and recommendations → docker scout quickview docker.elastic.co/kibana/kibana:8.9.1
+
+
+✅ C:\Users\feden>docker run --name kibana --net elastic -p 5601:5601 docker.elastic.co/kibana/kibana:8.9.1
+[2023-08-24T17:49:59.381+00:00][INFO ][node] Kibana process configured with roles: [background_tasks, ui]
+[2023-08-24T17:50:41.604+00:00][INFO ][plugins-service] Plugin "cloudChat" is disabled.
+[2023-08-24T17:50:41.619+00:00][INFO ][plugins-service] Plugin "cloudExperiments" is disabled.
+[2023-08-24T17:50:41.619+00:00][INFO ][plugins-service] Plugin "cloudFullStory" is disabled.
+[2023-08-24T17:50:41.622+00:00][INFO ][plugins-service] Plugin "cloudGainsight" is disabled.
+[2023-08-24T17:50:42.034+00:00][INFO ][plugins-service] Plugin "profiling" is disabled.
+[2023-08-24T17:50:42.108+00:00][INFO ][plugins-service] Plugin "serverless" is disabled.
+[2023-08-24T17:50:42.109+00:00][INFO ][plugins-service] Plugin "serverlessObservability" is disabled.
+[2023-08-24T17:50:42.110+00:00][INFO ][plugins-service] Plugin "serverlessSearch" is disabled.
+[2023-08-24T17:50:42.111+00:00][INFO ][plugins-service] Plugin "serverlessSecurity" is disabled.
+[2023-08-24T17:50:42.638+00:00][INFO ][http.server.Preboot] http server running at http://0.0.0.0:5601
+[2023-08-24T17:50:43.188+00:00][INFO ][plugins-system.preboot] Setting up [1] plugins: [interactiveSetup]
+[2023-08-24T17:50:43.196+00:00][INFO ][preboot] "interactiveSetup" plugin is holding setup: Validating Elasticsearch connection configuration…
+[2023-08-24T17:50:43.348+00:00][INFO ][root] Holding setup until preboot stage is completed.
+
+
+Kibana has not been configured.
+Go to http://0.0.0.0:5601/?code=698970 to get started.
+
+
+
+✅ How to start a Elasticsearch Docker Container with SSL/TLS encryption
+
+# More details on certificates and SHA 256 - https://www.elastic.co/guide/en/elasticsearch/reference/current/configuring-stack-security.html
+
+# crt location on docker container under /usr/share/elasticsearch/config/certs/
+
+Test certificate assuming you have local copy of http_ca.crt requires username + password input
+✅ curl --cacert http_ca.crt -u elastic https://localhost:9200
+
+# Querying Elasticsearch providing crt + username + password
+curl --cacert /usr/share/elasticsearch/config/certs/http_ca.crt -u elastic:X0TX=WmUJYajP=K+zRDR https://localhost:9200

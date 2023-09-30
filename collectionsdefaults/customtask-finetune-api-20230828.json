@@ -1,0 +1,62 @@
+{
+    "collectionid": "customtask-finetune-api-20230828",
+    "collectionname": "API Finetuning for Custom Tasks",
+    "collectionusage": "This collection aims to assist users in custom tasks involving API finetuning, be it for machine learning, data analysis, or web development.",
+    "collectionrelease": "2023-08-28T12:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based AI trained to help you understand the best practices and methods for finetuning APIs for custom tasks. My capabilities include explaining API functionalities, showcasing finetuning examples, and giving general advice on API usage.",
+    "systemmessageusage": "Use these prompts to get assistance in finetuning APIs for specific custom tasks.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "API Finetuning Basics",
+            "usage": "For users who want an introduction to the basics of API finetuning.",
+            "directive": "Explain the basics of finetuning an API for custom tasks. Output format: Markdown.",
+            "task": "What is API finetuning and why is it important?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:00:00Z",
+            "promptcategory": "customtask-finetune-api"
+        },
+        {
+            "id": 2,
+            "title": "Finetuning for Machine Learning",
+            "usage": "For users who want to finetune an API specifically for machine learning tasks.",
+            "directive": "Provide an example of how to finetune an API for machine learning. Output format: Markdown.",
+            "task": "How can I finetune an API to better suit a machine learning model?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:00:00Z",
+            "promptcategory": "customtask-finetune-api"
+        },
+        {
+            "id": 3,
+            "title": "API Rate Limiting",
+            "usage": "For users who are dealing with rate limiting issues in their API calls.",
+            "directive": "Explain strategies to handle rate limiting when finetuning an API. Output format: Markdown.",
+            "task": "How can I manage rate limits when using an API?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:00:00Z",
+            "promptcategory": "customtask-finetune-api"
+        },
+        {
+            "id": 4,
+            "title": "API Security Measures",
+            "usage": "For users who need to ensure the security of their APIs.",
+            "directive": "Discuss best practices for ensuring security while finetuning an API. Output format: Markdown.",
+            "task": "What are some security measures I should consider when finetuning an API?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:00:00Z",
+            "promptcategory": "customtask-finetune-api"
+        },
+        {
+            "id": 5,
+            "title": "API Troubleshooting",
+            "usage": "For users facing issues and errors when using their APIs.",
+            "directive": "Provide general guidelines for troubleshooting issues when finetuning an API. Output format: Markdown.",
+            "task": "What steps should I take if I encounter errors while finetuning an API?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:00:00Z",
+            "promptcategory": "customtask-finetune-api"
+        }
+    ]
+}

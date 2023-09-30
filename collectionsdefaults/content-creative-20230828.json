@@ -1,0 +1,62 @@
+{
+    "collectionid": "content-creative-20230828",
+    "collectionname": "Creative Content Prompts",
+    "collectionusage": "This collection is designed to inspire and guide users in the crafting of various creative content, including ad copy, creative essays, and more.",
+    "collectionrelease": "2023-08-28T15:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with creative content creation. Whether you're looking to generate advertising copy, pen a creative essay, or brainstorm innovative ideas, I can help you get your creative juices flowing.",
+    "systemmessageusage": "Use these prompts as a springboard for your creative endeavors. Each prompt is designed to serve as a guide or inspiration, which you can adapt to your unique creative challenges.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Ad Copy Brainstorm",
+            "usage": "Ideal for users who are in the conceptual stage of creating advertising copy.",
+            "directive": "Generate a list of catchy headlines for a new organic juice brand. Output format: Markdown.",
+            "task": "I'm launching an organic juice brand and need some catchy headlines for our ads.",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T15:05:00Z",
+            "promptcategory": "content-creative"
+        },
+        {
+            "id": 2,
+            "title": "Creative Essay Ideas",
+            "usage": "Designed to help users brainstorm topics for creative essays.",
+            "directive": "Provide a list of creative essay topics that explore the human condition. Output format: Markdown.",
+            "task": "I want to write a creative essay that explores the human condition. Any topic ideas?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T15:05:00Z",
+            "promptcategory": "content-creative"
+        },
+        {
+            "id": 3,
+            "title": "Innovative Product Ideas",
+            "usage": "Useful for users looking for new and innovative product ideas.",
+            "directive": "Generate a list of innovative product ideas related to sustainable living. Output format: Markdown.",
+            "task": "We want to expand our product line with items that promote sustainable living. Do you have any innovative ideas?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T15:05:00Z",
+            "promptcategory": "content-creative"
+        },
+        {
+            "id": 4,
+            "title": "Writing Captivating Introductions",
+            "usage": "For users who want to learn how to write captivating introductions for any type of content.",
+            "directive": "Explain the techniques for writing a captivating introduction for articles, essays, or stories. Output format: Markdown.",
+            "task": "How can I write an introduction that grabs the reader's attention?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T15:05:00Z",
+            "promptcategory": "content-creative"
+        },
+        {
+            "id": 5,
+            "title": "Social Media Content Tips",
+            "usage": "Aimed at helping users create engaging social media content.",
+            "directive": "Provide tips for creating engaging and shareable content for social media platforms. Output format: Markdown.",
+            "task": "What are some tips for making my social media posts more engaging and shareable?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T15:05:00Z",
+            "promptcategory": "content-creative"
+        }
+    ]
+}

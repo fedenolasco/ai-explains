@@ -1,0 +1,62 @@
+{
+    "collectionid": "education-complex-concept-20230828",
+    "collectionname": "Education on Complex Concepts",
+    "collectionusage": "This collection aims to assist users in deepening their understanding of complex educational topics and theories.",
+    "collectionrelease": "2023-08-28T17:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am trained to assist with a range of educational tasks, including breaking down complex concepts into digestible information. Whether you're a student, educator, or just intellectually curious, I can help make complicated ideas more understandable.",
+    "systemmessageusage": "Use these prompts when you need to understand, explain, or teach complex educational theories or concepts.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Understand Quantum Physics",
+            "usage": "Best suited for users seeking a simpler understanding of quantum physics.",
+            "directive": "Explain the concept of quantum entanglement in understandable terms. Output format: Markdown.",
+            "task": "Can you help me understand what quantum entanglement is?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T17:05:00Z",
+            "promptcategory": "education-complex-concept"
+        },
+        {
+            "id": 2,
+            "title": "Grasp Mathematical Theories",
+            "usage": "Designed to help users understand intricate mathematical theories.",
+            "directive": "Explain Fermat's Last Theorem in terms that a high school student could understand. Output format: Markdown.",
+            "task": "What is Fermat's Last Theorem and why is it important?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T17:05:00Z",
+            "promptcategory": "education-complex-concept"
+        },
+        {
+            "id": 3,
+            "title": "Sociological Concepts",
+            "usage": "Ideal for users who want to delve into complex sociological concepts.",
+            "directive": "Explain the concept of 'Social Capital' and its implications. Output format: Markdown.",
+            "task": "What does 'Social Capital' mean and how does it affect society?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T17:05:00Z",
+            "promptcategory": "education-complex-concept"
+        },
+        {
+            "id": 4,
+            "title": "Understanding Biochemistry",
+            "usage": "For users seeking to understand the complexities of biochemistry.",
+            "directive": "Explain the process of cellular respiration and its importance. Output format: Markdown.",
+            "task": "Can you tell me about cellular respiration and why it's crucial?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T17:05:00Z",
+            "promptcategory": "education-complex-concept"
+        },
+        {
+            "id": 5,
+            "title": "Grasping Artificial Intelligence",
+            "usage": "Aimed at helping users understand the core concepts behind Artificial Intelligence.",
+            "directive": "Describe the concept of machine learning and how it differs from traditional programming. Output format: Markdown.",
+            "task": "What is machine learning and how is it different from traditional programming?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T17:05:00Z",
+            "promptcategory": "education-complex-concept"
+        }
+    ]
+}

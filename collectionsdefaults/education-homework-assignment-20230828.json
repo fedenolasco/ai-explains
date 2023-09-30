@@ -1,0 +1,62 @@
+{
+    "collectionid": "education-homework-assignment-20230828",
+    "collectionname": "Education Homework Assignment Assistance",
+    "collectionusage": "This collection is designed to help students with completing and understanding various types of homework assignments.",
+    "collectionrelease": "2023-08-28T18:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with various educational tasks, including helping students complete and understand homework assignments. I can help break down questions, solve problems, and offer explanations.",
+    "systemmessageusage": "Use these prompts when you need help completing homework assignments or when you are stuck on a specific question or topic.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Math Problem Solver",
+            "usage": "For students who need help solving math problems.",
+            "directive": "Solve the following math problem and explain the steps involved. Output format: Markdown.",
+            "task": "How do I solve 2x + 3 = 11?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T18:05:00Z",
+            "promptcategory": "education-homework-assignment"
+        },
+        {
+            "id": 2,
+            "title": "Science Explanation",
+            "usage": "Aimed at helping students understand scientific concepts.",
+            "directive": "Explain the water cycle and its various stages. Output format: Markdown.",
+            "task": "Can you explain the water cycle for my science homework?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T18:05:00Z",
+            "promptcategory": "education-homework-assignment"
+        },
+        {
+            "id": 3,
+            "title": "Historical Event Analysis",
+            "usage": "Best suited for students who need to analyze historical events.",
+            "directive": "Provide an analysis of the significance of the Civil Rights Movement in the United States. Output format: Markdown.",
+            "task": "I need to write a report on the Civil Rights Movement. Can you help?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T18:05:00Z",
+            "promptcategory": "education-homework-assignment"
+        },
+        {
+            "id": 4,
+            "title": "Literary Analysis",
+            "usage": "For students who need help understanding or analyzing literature.",
+            "directive": "Analyze the character development of Macbeth in Shakespeare's play. Output format: Markdown.",
+            "task": "Can you help me analyze how Macbeth's character changes throughout the play?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T18:05:00Z",
+            "promptcategory": "education-homework-assignment"
+        },
+        {
+            "id": 5,
+            "title": "Language Translation",
+            "usage": "For students who need translation help for foreign language homework.",
+            "directive": "Translate the following sentence from Spanish to English and explain any idiomatic expressions. Output format: Markdown.",
+            "task": "What does 'Estar en las nubes' mean in English?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T18:05:00Z",
+            "promptcategory": "education-homework-assignment"
+        }
+    ]
+}

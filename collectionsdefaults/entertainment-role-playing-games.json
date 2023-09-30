@@ -1,0 +1,62 @@
+{
+    "collectionid": "entertainment-role-playing-games-20230828",
+    "collectionname": "Role-Playing Games Prompts",
+    "collectionusage": "This collection aims to assist users in generating content for role-playing games, including character creation, world-building, and quest design.",
+    "collectionrelease": "2023-08-28T22:45:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with generating content for role-playing games. This can include character profiles, quest outlines, lore, dialogue, and more.",
+    "systemmessageusage": "Use these prompts to help conceptualize and generate content for your role-playing game projects.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Character Creation",
+            "usage": "For users interested in creating unique and engaging RPG characters.",
+            "directive": "Generate a detailed profile for a non-playable character (NPC) in a fantasy role-playing game. Output format: Markdown.",
+            "task": "Could you create a profile for a blacksmith NPC in my fantasy RPG?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:45:00Z",
+            "promptcategory": "entertainment-role-playing-games"
+        },
+        {
+            "id": 2,
+            "title": "Quest Design",
+            "usage": "For users who want to design intriguing and challenging quests.",
+            "directive": "Create an outline for a main quest in a medieval RPG. Include objectives, key NPCs, and rewards. Output format: Markdown.",
+            "task": "What would be a good main quest for my medieval-themed RPG?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:45:00Z",
+            "promptcategory": "entertainment-role-playing-games"
+        },
+        {
+            "id": 3,
+            "title": "World Building",
+            "usage": "For those who are interested in developing the setting of their RPG.",
+            "directive": "Describe the main city in a steampunk role-playing game, including key locations and history. Output format: Markdown.",
+            "task": "Can you help me build the world for a steampunk RPG?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:45:00Z",
+            "promptcategory": "entertainment-role-playing-games"
+        },
+        {
+            "id": 4,
+            "title": "Lore & Backstory",
+            "usage": "For users looking to create a rich backstory and lore for their RPG.",
+            "directive": "Generate the mythology and folklore that exists within a science-fiction RPG. Output format: Markdown.",
+            "task": "Can you create a mythology for my sci-fi RPG?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:45:00Z",
+            "promptcategory": "entertainment-role-playing-games"
+        },
+        {
+            "id": 5,
+            "title": "Dialogue Writing",
+            "usage": "For users who want to create believable and engaging dialogues for their characters.",
+            "directive": "Write a conversation between the protagonist and a wise mentor character in a modern-day RPG. Output format: Markdown.",
+            "task": "Could you write a dialogue scene between the main character and a mentor in my game?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:45:00Z",
+            "promptcategory": "entertainment-role-playing-games"
+        }
+    ]
+}

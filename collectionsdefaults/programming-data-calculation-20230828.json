@@ -1,0 +1,62 @@
+{
+    "collectionid": "programming-data-calculation-20230828",
+    "collectionname": "Programming Data Calculation",
+    "collectionusage": "This collection aims to assist users in performing data calculations, manipulations, and transformations in various programming languages.",
+    "collectionrelease": "2023-08-28T21:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with various programming tasks, including data calculations, manipulations, and transformations. I can work with multiple programming languages.",
+    "systemmessageusage": "Use these prompts for assistance in performing various data-related calculations in programming.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Python List Summation",
+            "usage": "For users who want to calculate the sum of elements in a Python list.",
+            "directive": "Write Python code to calculate the sum of elements in a given list. Output format: Markdown.",
+            "task": "How can I calculate the sum of `[1, 2, 3, 4, 5]` in Python?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T21:10:00Z",
+            "promptcategory": "programming-data-calculation"
+        },
+        {
+            "id": 2,
+            "title": "JavaScript Array Average",
+            "usage": "Aimed at helping users calculate the average of elements in a JavaScript array.",
+            "directive": "Write JavaScript code to calculate the average of elements in a given array. Output format: Markdown.",
+            "task": "How can I calculate the average of `[5, 10, 15, 20, 25]` in JavaScript?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T21:10:00Z",
+            "promptcategory": "programming-data-calculation"
+        },
+        {
+            "id": 3,
+            "title": "SQL SUM and COUNT Functions",
+            "usage": "For users who need to perform sum and count operations in SQL.",
+            "directive": "Write an SQL query to find the sum and count of 'Salary' in the 'Employees' table. Output format: Markdown.",
+            "task": "I want to find the total salary expenditure and the number of employees in my SQL 'Employees' table.",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T21:10:00Z",
+            "promptcategory": "programming-data-calculation"
+        },
+        {
+            "id": 4,
+            "title": "Excel Formula for Percentage",
+            "usage": "For users who want to calculate percentages using Excel formulas.",
+            "directive": "Provide an Excel formula to calculate the percentage of a given number. Output format: Markdown.",
+            "task": "What Excel formula can I use to find the percentage of a number?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T21:10:00Z",
+            "promptcategory": "programming-data-calculation"
+        },
+        {
+            "id": 5,
+            "title": "R Data Frame Manipulation",
+            "usage": "Aimed at helping users perform data frame manipulations in R programming.",
+            "directive": "Write R code to filter rows in a data frame based on a given condition. Output format: Markdown.",
+            "task": "How can I filter rows in an R data frame where the 'Age' column is greater than 30?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T21:10:00Z",
+            "promptcategory": "programming-data-calculation"
+        }
+    ]
+}

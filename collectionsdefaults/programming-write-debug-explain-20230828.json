@@ -1,0 +1,62 @@
+{
+    "collectionid": "programming-write-debug-explain-20230828",
+    "collectionname": "Programming Write, Debug, Explain",
+    "collectionusage": "This collection aims to assist users in writing, debugging, and understanding code across various programming languages.",
+    "collectionrelease": "2023-08-28T20:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with a variety of programming tasks, including writing code, debugging issues, and explaining programming concepts. I can work with multiple programming languages, including Python.",
+    "systemmessageusage": "Use these prompts when you need help writing, debugging, or understanding code in various programming languages.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Python Code Explanation",
+            "usage": "For users who want to understand Python code.",
+            "directive": "Explain the following Python code snippet and its functionality. Output format: Markdown.",
+            "task": "What does `print('Hello, World!')` do in Python?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T20:10:00Z",
+            "promptcategory": "programming-write-debug-explain"
+        },
+        {
+            "id": 2,
+            "title": "JavaScript Debugging",
+            "usage": "Aimed at helping users debug JavaScript code.",
+            "directive": "Debug the following JavaScript code snippet and explain the issue. Output format: Markdown.",
+            "task": "Why is `console.log(x)` showing `undefined` in this code: `var x; console.log(x);`?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T20:10:00Z",
+            "promptcategory": "programming-write-debug-explain"
+        },
+        {
+            "id": 3,
+            "title": "SQL Query Writing",
+            "usage": "For users who need to write SQL queries.",
+            "directive": "Write an SQL query to retrieve records from a table named 'Employees' where the 'Salary' is greater than 50000. Output format: Markdown.",
+            "task": "I need to retrieve employees with salaries greater than 50000 from an SQL database.",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T20:10:00Z",
+            "promptcategory": "programming-write-debug-explain"
+        },
+        {
+            "id": 4,
+            "title": "C++ Memory Leak Explanation",
+            "usage": "For users who want to understand memory management in C++.",
+            "directive": "Explain how to identify and fix memory leaks in C++. Output format: Markdown.",
+            "task": "How do I find and fix memory leaks in C++?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T20:10:00Z",
+            "promptcategory": "programming-write-debug-explain"
+        },
+        {
+            "id": 5,
+            "title": "Java Exception Handling",
+            "usage": "Aimed at helping users handle exceptions in Java.",
+            "directive": "Write Java code to demonstrate how to catch and handle an ArrayIndexOutOfBoundsException. Output format: Markdown.",
+            "task": "How can I catch and handle an ArrayIndexOutOfBoundsException in Java?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T20:10:00Z",
+            "promptcategory": "programming-write-debug-explain"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "collectionid": "entertainment-jokes-trivia-20230828",
+    "collectionname": "Jokes & Trivia Entertainment Prompts",
+    "collectionusage": "This collection is designed to assist users in generating jokes, trivia questions, and other entertaining content.",
+    "collectionrelease": "2023-08-28T22:55:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with generating jokes, trivia questions, and other fun content. Whether you need a joke for a social gathering or trivia for a quiz night, I can help.",
+    "systemmessageusage": "Use these prompts to generate jokes or trivia for various purposes such as social events, games, or content creation.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Generate Jokes",
+            "usage": "For users looking to create jokes for humor or entertainment.",
+            "directive": "Generate a joke related to a specific topic. Output format: Markdown.",
+            "task": "Can you tell me a joke about mathematics?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:55:00Z",
+            "promptcategory": "entertainment-jokes-trivia"
+        },
+        {
+            "id": 2,
+            "title": "Create Trivia Questions",
+            "usage": "For those who are interested in creating trivia questions for a quiz.",
+            "directive": "Create a trivia question and its answer on a specific topic. Output format: Markdown.",
+            "task": "Can you create a trivia question about world history?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:55:00Z",
+            "promptcategory": "entertainment-jokes-trivia"
+        },
+        {
+            "id": 3,
+            "title": "Movie Quotes",
+            "usage": "For users who want to generate famous or humorous movie quotes.",
+            "directive": "Generate a fictional movie quote that would fit well in a comedy film. Output format: Markdown.",
+            "task": "Can you generate a funny quote that could be in a comedy movie?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:55:00Z",
+            "promptcategory": "entertainment-jokes-trivia"
+        },
+        {
+            "id": 4,
+            "title": "Puzzles & Riddles",
+            "usage": "For users interested in creating puzzles or riddles for games or social events.",
+            "directive": "Generate a challenging riddle along with its answer. Output format: Markdown.",
+            "task": "Can you create a riddle for me?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:55:00Z",
+            "promptcategory": "entertainment-jokes-trivia"
+        },
+        {
+            "id": 5,
+            "title": "Humorous Anecdotes",
+            "usage": "For users who want to generate short, funny stories or anecdotes.",
+            "directive": "Write a short, humorous anecdote about a pet. Output format: Markdown.",
+            "task": "Can you tell me a funny story about a cat?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:55:00Z",
+            "promptcategory": "entertainment-jokes-trivia"
+        }
+    ]
+}

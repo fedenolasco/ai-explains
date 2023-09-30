@@ -1,0 +1,62 @@
+{
+    "collectionid": "business-data-analysis-20230828",
+    "collectionname": "Business Data Analysis Prompts",
+    "collectionusage": "This collection aims to assist users in understanding, analyzing, and interpreting data to make informed business decisions.",
+    "collectionrelease": "2023-08-28T23:30:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with various data analysis tasks in a business context, such as interpreting key performance indicators, analyzing financial data, and evaluating market trends.",
+    "systemmessageusage": "Use these prompts to help you understand and analyze data in a business setting.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "KPI Analysis",
+            "usage": "For users who want to understand the significance of key performance indicators in their business.",
+            "directive": "Explain how to analyze key performance indicators (KPIs) in a business. Output format: Markdown.",
+            "task": "What are KPIs and how can I analyze them to improve my business?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:30:00Z",
+            "promptcategory": "business-data-analysis"
+        },
+        {
+            "id": 2,
+            "title": "Financial Data Interpretation",
+            "usage": "For users who need to understand and interpret financial data.",
+            "directive": "Explain how to interpret common financial statements in a business. Output format: Markdown.",
+            "task": "How can I read and interpret an income statement?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:30:00Z",
+            "promptcategory": "business-data-analysis"
+        },
+        {
+            "id": 3,
+            "title": "Market Research Analysis",
+            "usage": "For users who want to understand how to conduct and analyze market research.",
+            "directive": "Describe the process for conducting market research and how to analyze the results. Output format: Markdown.",
+            "task": "I'm planning to launch a new product. How should I conduct market research and analyze the data?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:30:00Z",
+            "promptcategory": "business-data-analysis"
+        },
+        {
+            "id": 4,
+            "title": "Customer Behavior Analysis",
+            "usage": "For users interested in understanding customer behavior through data analysis.",
+            "directive": "Explain how to analyze customer behavior data to improve business strategies. Output format: Markdown.",
+            "task": "How can I use customer data to improve my marketing strategies?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:30:00Z",
+            "promptcategory": "business-data-analysis"
+        },
+        {
+            "id": 5,
+            "title": "Sales Forecasting",
+            "usage": "For users who need to forecast sales based on historical data.",
+            "directive": "Describe methods for forecasting sales using historical data. Output format: Markdown.",
+            "task": "We have past sales data for the last two years. How can we forecast sales for the next quarter?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:30:00Z",
+            "promptcategory": "business-data-analysis"
+        }
+    ]
+}

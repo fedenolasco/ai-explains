@@ -1,0 +1,62 @@
+{
+    "collectionid": "nlp-entityrecognition-20230828",
+    "collectionname": "NLP Entity Recognition Prompts",
+    "collectionusage": "This collection is designed to assist users in understanding and implementing entity recognition tasks in natural language processing.",
+    "collectionrelease": "2023-08-28T12:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with various Natural Language Processing tasks, including entity recognition. I can help you understand what entity recognition is, how it works, and how to implement it.",
+    "systemmessageusage": "You can use these prompts to better understand entity recognition, implement it in your projects, or get insights on specific challenges related to this NLP task.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "What is Entity Recognition",
+            "usage": "Ideal for those new to the concept of entity recognition in NLP.",
+            "directive": "Explain what entity recognition is in natural language processing. Output format: Markdown.",
+            "task": "Can you explain to me what entity recognition is?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:30:00Z",
+            "promptcategory": "nlp-entityrecognition"
+        },
+        {
+            "id": 2,
+            "title": "Implementing Entity Recognition",
+            "usage": "For users who wish to implement entity recognition in their projects.",
+            "directive": "Provide a basic example of how to implement entity recognition. Output format: Markdown.",
+            "task": "How can I implement entity recognition in Python?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:30:00Z",
+            "promptcategory": "nlp-entityrecognition"
+        },
+        {
+            "id": 3,
+            "title": "Challenges in Entity Recognition",
+            "usage": "Designed for users facing difficulties in their entity recognition tasks.",
+            "directive": "Describe the common challenges faced while implementing entity recognition and how to overcome them. Output format: Markdown.",
+            "task": "What are the challenges in implementing entity recognition and how can I overcome them?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:30:00Z",
+            "promptcategory": "nlp-entityrecognition"
+        },
+        {
+            "id": 4,
+            "title": "Tools for Entity Recognition",
+            "usage": "Users looking for tools and libraries to help in entity recognition.",
+            "directive": "List some tools and libraries commonly used for entity recognition. Output format: Markdown.",
+            "task": "What are some tools or libraries I can use for entity recognition?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:30:00Z",
+            "promptcategory": "nlp-entityrecognition"
+        },
+        {
+            "id": 5,
+            "title": "Advanced Techniques in Entity Recognition",
+            "usage": "Aimed at advanced users seeking to improve their entity recognition models.",
+            "directive": "Discuss some advanced techniques to improve entity recognition. Output format: Markdown.",
+            "task": "What are some advanced techniques I can use to improve my entity recognition model?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:30:00Z",
+            "promptcategory": "nlp-entityrecognition"
+        }
+    ]
+}

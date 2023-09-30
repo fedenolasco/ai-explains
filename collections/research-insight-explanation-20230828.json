@@ -1,0 +1,62 @@
+{
+    "collectionid": "research-insight-explanation-20230828",
+    "collectionname": "Research Insight and Explanation Prompts",
+    "collectionusage": "This collection aims to help users in generating in-depth insights and explanations in various research topics. It is particularly useful for researchers, scholars, and students.",
+    "collectionrelease": "2023-08-28T22:15:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based AI model trained to assist in academic and professional research tasks, such as generating insights and explanations for complex topics. I aim to deepen your understanding and aid in knowledge discovery.",
+    "systemmessageusage": "Use these prompts to derive new insights or clarify complex research subjects in academia or professional studies.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Behavioral Economics",
+            "usage": "For users interested in understanding the motivations behind economic behaviors.",
+            "directive": "Explain the principle of 'Loss Aversion' in behavioral economics. Output format: Markdown.",
+            "task": "Could you help me understand what 'Loss Aversion' is in behavioral economics?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:15:00Z",
+            "promptcategory": "research-insight-explanation"
+        },
+        {
+            "id": 2,
+            "title": "Climate Change Impact",
+            "usage": "For researchers or students studying the effects of climate change.",
+            "directive": "Analyze the long-term effects of climate change on marine biodiversity. Output format: Markdown.",
+            "task": "What are the long-term effects of climate change on marine biodiversity?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:15:00Z",
+            "promptcategory": "research-insight-explanation"
+        },
+        {
+            "id": 3,
+            "title": "Artificial Intelligence Ethics",
+            "usage": "For those who are exploring the ethical implications of AI.",
+            "directive": "Discuss the ethical challenges of using AI in autonomous weapons. Output format: Markdown.",
+            "task": "What are the ethical challenges of implementing AI in autonomous weaponry?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:15:00Z",
+            "promptcategory": "research-insight-explanation"
+        },
+        {
+            "id": 4,
+            "title": "Quantum Computing",
+            "usage": "For users who wish to understand the practical applications of quantum computing.",
+            "directive": "Explain how quantum computing could revolutionize data encryption. Output format: Markdown.",
+            "task": "Can you explain the impact of quantum computing on data encryption?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:15:00Z",
+            "promptcategory": "research-insight-explanation"
+        },
+        {
+            "id": 5,
+            "title": "Neuroscience and Learning",
+            "usage": "For those interested in how neuroscience can inform educational practices.",
+            "directive": "Outline the role of neuroplasticity in lifelong learning. Output format: Markdown.",
+            "task": "What role does neuroplasticity play in the capacity for lifelong learning?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T22:15:00Z",
+            "promptcategory": "research-insight-explanation"
+        }
+    ]
+}

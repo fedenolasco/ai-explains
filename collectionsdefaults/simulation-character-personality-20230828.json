@@ -1,0 +1,62 @@
+{
+    "collectionid": "simulation-character-personality-20230828",
+    "collectionname": "Simulation of Character Personalities",
+    "collectionusage": "This collection is designed to help users understand or simulate distinct character personalities.",
+    "collectionrelease": "2023-08-28T23:59:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based AI trained to simulate and describe character personalities for storytelling, game design, or personal exploration.",
+    "systemmessageusage": "Use these prompts to explore or simulate different types of character personalities.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Introverted Character",
+            "usage": "To understand or create an introverted character's personality traits and behaviors.",
+            "directive": "Describe an introverted character's personality traits and behaviors. Output format: Markdown.",
+            "task": "What are the traits and behaviors of an introverted character?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "simulation-character-personality"
+        },
+        {
+            "id": 2,
+            "title": "Extroverted Character",
+            "usage": "To understand or create an extroverted character's personality traits and behaviors.",
+            "directive": "Describe an extroverted character's personality traits and behaviors. Output format: Markdown.",
+            "task": "What are the traits and behaviors of an extroverted character?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "simulation-character-personality"
+        },
+        {
+            "id": 3,
+            "title": "Villain Character",
+            "usage": "To explore the psychological aspects of a villainous character.",
+            "directive": "Describe a villain's personality traits and motivations. Output format: Markdown.",
+            "task": "What drives a villain to commit evil acts?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "simulation-character-personality"
+        },
+        {
+            "id": 4,
+            "title": "Heroic Character",
+            "usage": "To understand or create a hero's personality traits and motivations.",
+            "directive": "Describe a hero's personality traits and motivations. Output format: Markdown.",
+            "task": "What makes someone a hero?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "simulation-character-personality"
+        },
+        {
+            "id": 5,
+            "title": "Tragic Character",
+            "usage": "To explore the qualities of a tragic character in literature or drama.",
+            "directive": "Describe a tragic character's personality traits and downfall. Output format: Markdown.",
+            "task": "Why do tragic characters meet an unfortunate end?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "simulation-character-personality"
+        }
+    ]
+}

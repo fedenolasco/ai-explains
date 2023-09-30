@@ -1,0 +1,29 @@
+task,subtask,subtaskid,taskid
+none,none,none,none
+Natural Language Processing (NLP) tasks,Question-Answering,nlp-question-answer,nlp
+Natural Language Processing (NLP) tasks,Text summarization,nlp-summarize,nlp
+Natural Language Processing (NLP) tasks,Translation,nlp-translate,nlp
+Natural Language Processing (NLP) tasks,Sentiment analysis,nlp-sentimentanalysis,nlp
+Natural Language Processing (NLP) tasks,Named entity recognition,nlp-entityrecognition,nlp
+Natural Language Processing (NLP) tasks,Chatbot functionality,nlp-chatbot,nlp
+Content Creation,"Writing articles, essays, or reports",content-article-essay-report,content
+Content Creation,Creating poetry or stories,content-poetry-stories,content
+Content Creation,Generating creative content or prompts,content-creative,content
+Education,Tutoring in various subjects,education-topic,education
+Education,Providing explanations for complex concepts,education-complex-concept,education
+Education,Assisting with homework or assignments,education-homework-assignment,education
+Programming,"Writing, debugging, or explaining code",programming-write-debug-explain,programming
+Programming,Performing code-related tasks or calculations,programming-data-calculation,programming
+Research Assistance,Summarizing research papers or articles,research-paper-article,research
+Research Assistance,Providing insights or explanations on specific topics,research-insight-explanation,research
+Entertainment,Playing text-based games,entertainment-text-based-games,entertainment
+Entertainment,Role-playing scenarios,entertainment-role-playing-games,entertainment
+Entertainment,Generating jokes or trivia,entertainment-jokes-trivia,entertainment
+Business Applications,Drafting emails or business communications,business-email-comms,business
+Business Applications,Assisting with data analysis or visualization,business-data-analyisis,business
+Business Applications,Automating repetitive tasks,business-automate-task,business
+General Knowledge Queries,Providing information on a wide range of topics,generalknowledge-topic,generalknowledge
+General Knowledge Queries,Offering historical or factual data,generalknowledge-history-fact,generalknowledge
+Simulations and Scenarios,Simulating conversations or interactions,simulation-conversation-interaction,simulation
+Simulations and Scenarios,Role-playing specific characters or personalities,simulation-character-personality,simulation
+Custom Tasks,The API can be trained or fine-tuned on specific datasets to perform custom tasks tailored to the user's needs,customtask-finetune-api,customtask

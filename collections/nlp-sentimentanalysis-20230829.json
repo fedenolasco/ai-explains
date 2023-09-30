@@ -1,0 +1,62 @@
+{
+    "collectionid": "nlp-sentimentanalysis-20230829",
+    "collectionname": "Sentiment Analysis Prompts",
+    "collectionusage": "This collection aims to assist users in analyzing and understanding the sentiment of text data.",
+    "collectionrelease": "2023-08-28T12:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with various natural language processing tasks. In this collection, I can help you analyze and understand the sentiment of different kinds of text data.",
+    "systemmessageusage": "You can use these prompts to assess the sentiment of customer reviews, social media comments, or any textual content.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Basic Sentiment Analysis",
+            "usage": "Best suited for users who want to understand the general sentiment of a piece of text.",
+            "directive": "Please analyze the sentiment of the following text. Output format: markdown.",
+            "task": "How do customers feel about our new product based on this review: 'This is the best thing ever. Highly recommend!'?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T08:23:25Z",
+            "promptcategory": "nlp-sentimentanalysis"
+        },
+        {
+            "id": 2,
+            "title": "Sentiment of Social Media Comment",
+            "usage": "For users interested in analyzing the sentiment of social media comments.",
+            "directive": "Analyze the sentiment of the following social media comment. Output format: markdown.",
+            "task": "What is the sentiment of this tweet: 'Absolutely terrible experience. Never coming back!'?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T08:23:25Z",
+            "promptcategory": "nlp-sentimentanalysis"
+        },
+        {
+            "id": 3,
+            "title": "Sentiment Analysis for Emails",
+            "usage": "This prompt is for users who need to gauge the sentiment of an email.",
+            "directive": "Determine the sentiment of the following email text. Output format: markdown.",
+            "task": "Can you tell me the sentiment of this email text: 'Your service has been adequate, nothing exceptional.'?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T08:23:25Z",
+            "promptcategory": "nlp-sentimentanalysis"
+        },
+        {
+            "id": 4,
+            "title": "Advanced Sentiment Analysis",
+            "usage": "For users looking to analyze sentiment at the sentence level.",
+            "directive": "Analyze the sentiment of each sentence in the following paragraph. Output format: markdown.",
+            "task": "Please analyze the sentiment of each sentence in this review: 'The food was delicious. However, the service left much to be desired.'",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T08:23:25Z",
+            "promptcategory": "nlp-sentimentanalysis"
+        },
+        {
+            "id": 5,
+            "title": "Sentiment Over Time",
+            "usage": "For users interested in tracking sentiment over a period of time.",
+            "directive": "Assess the change in sentiment based on these two reviews. Output format: markdown.",
+            "task": "First review: 'The food was okay, I guess.' Second review after one month: 'The food has improved significantly. Love it now.' What's the change in sentiment?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T08:23:25Z",
+            "promptcategory": "nlp-sentimentanalysis"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+
+/* Sidebar background and header */
+[data-testid="stSidebarNav"] {
+    background-image: url(https://datatunnel.io/wp-content/uploads/2023/08/robot2.png);
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    background-position: 20px 20px;
+    background-size: 50px;
+    align-items: center;
+    vertical-align: middle;
+}
+[data-testid="stSidebarNav"]::before {
+    content: "AI-explains";
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 40px;
+    position: abolute;
+    top: 0px;
+}
+
+/* Sidebar width */
+.sidebar .sidebar-content {
+    width: 400px;
+}
+
+/* Selectbox styles */
+div[data-baseweb="select"] > div {
+    border: 1px solid orange !important;
+    box-shadow: 5px 5px 5px grey !important;
+}
+
+/* Popover styles */
+div[data-baseweb="popover"] > div {
+    border: 1px solid orange !important;
+    box-shadow: 5px 5px 5px grey !important;
+}
+
+/* Button styles */
+.stButton>button {
+    background-color: gray;
+    color: white;
+    border: 2px solid darkgray;
+}
+.stButton>button:hover {
+    background-color: orange;
+    color: black;
+    border: 2px solid darkgray;
+}
+.stButton>button:active {
+    background-color: green;
+    color: white;
+    border: 2px solid darkgreen;
+}
+.stButton>button:focus {
+    outline: darkgray;
+    color: red;
+    font-weight: bold;
+    background: none;
+    box-shadow: 0 0 4px red;
+}
+
+/* Padding */
+.css-1oe5cao {
+    padding-top: 1rem;
+}
+.block-container {
+    padding-top: 1rem;
+}
+.element-container .css-t46ebd .e1f1d6gn2 {
+    padding-top: 0rem;
+}
+
+.css-keje6w .e1f1d6gn1 {
+    padding-top: 1rem;
+}
+
+.css-nahz7x .e1nzilvr4{
+    padding-top: 0.2rem;
+}

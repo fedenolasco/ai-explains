@@ -1,0 +1,62 @@
+{
+    "collectionid": "business-email-comms-20230828",
+    "collectionname": "Business Email Communication Prompts",
+    "collectionusage": "This collection is designed to assist users in composing professional, clear, and effective business emails.",
+    "collectionrelease": "2023-08-28T23:15:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with generating business emails for various purposes such as scheduling meetings, negotiations, announcements, and general correspondence.",
+    "systemmessageusage": "Use these prompts to help you compose professional emails for a range of business situations.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Meeting Request Email",
+            "usage": "For users looking to send an email to request a meeting.",
+            "directive": "Compose an email to request a meeting with a potential client. Output format: Markdown.",
+            "task": "I need to schedule a meeting with John Smith to discuss our new project. How should I phrase the email?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:15:00Z",
+            "promptcategory": "business-email-comms"
+        },
+        {
+            "id": 2,
+            "title": "Project Update Email",
+            "usage": "For those who need to update stakeholders on the status of a project.",
+            "directive": "Compose an email to update stakeholders on a project's status. Output format: Markdown.",
+            "task": "We've reached a milestone in Project X and I need to inform the stakeholders. How should I write the email?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:15:00Z",
+            "promptcategory": "business-email-comms"
+        },
+        {
+            "id": 3,
+            "title": "Negotiation Email",
+            "usage": "For users who are engaged in negotiations and need to communicate their terms.",
+            "directive": "Compose an email to negotiate terms with a supplier. Output format: Markdown.",
+            "task": "I need to negotiate pricing with our supplier. Can you help me draft the email?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:15:00Z",
+            "promptcategory": "business-email-comms"
+        },
+        {
+            "id": 4,
+            "title": "Announcement Email",
+            "usage": "For users who need to make an announcement to their team or company.",
+            "directive": "Compose an email to announce a new company policy. Output format: Markdown.",
+            "task": "We have a new remote work policy that I need to announce to the team. How should I phrase it?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:15:00Z",
+            "promptcategory": "business-email-comms"
+        },
+        {
+            "id": 5,
+            "title": "Feedback Request Email",
+            "usage": "For users who need to request feedback from colleagues or clients.",
+            "directive": "Compose an email to request feedback on a recently completed project. Output format: Markdown.",
+            "task": "The project has been completed and I'd like to collect feedback from the team. What should the email look like?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:15:00Z",
+            "promptcategory": "business-email-comms"
+        }
+    ]
+}

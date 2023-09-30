@@ -1,0 +1,62 @@
+{
+    "collectionid": "research-paper-article-20230828",
+    "collectionname": "Research Paper and Article Prompts",
+    "collectionusage": "This collection aims to assist users in generating ideas, insights, and content for research papers and articles in the fields of AI, Science, Diagnostics, Therapeutics, and Animal healthcare.",
+    "collectionrelease": "2023-08-28T21:40:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist in various academic and research tasks, including generating ideas, summaries, and explanations for research papers and articles. I can help you explore complex topics in multiple disciplines.",
+    "systemmessageusage": "Use these prompts to help brainstorm, structure, or write research papers and articles in a variety of scientific fields.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "AI in Diagnostics",
+            "usage": "For users who are researching the application of AI in diagnostic methods.",
+            "directive": "Outline the key points for a research paper on the impact of AI in diagnostic methods. Output format: Markdown.",
+            "task": "I want to write a research paper on how AI is revolutionizing diagnostic methods in healthcare.",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T21:40:00Z",
+            "promptcategory": "research-paper-article"
+        },
+        {
+            "id": 2,
+            "title": "Advancements in Therapeutics",
+            "usage": "For users interested in the latest advancements in therapeutic methods.",
+            "directive": "Provide an abstract for an article discussing the latest advancements in therapeutics. Output format: Markdown.",
+            "task": "Can you help me write an abstract for an article on the latest advancements in therapeutics?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T21:40:00Z",
+            "promptcategory": "research-paper-article"
+        },
+        {
+            "id": 3,
+            "title": "Science of Animal Healthcare",
+            "usage": "For users who are focusing on the scientific aspects of animal healthcare.",
+            "directive": "Suggest possible research questions for an article about the science behind animal healthcare. Output format: Markdown.",
+            "task": "What are some research questions for an article on the scientific methods used in animal healthcare?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T21:40:00Z",
+            "promptcategory": "research-paper-article"
+        },
+        {
+            "id": 4,
+            "title": "AI in Science",
+            "usage": "For researchers interested in the intersection of AI and Science.",
+            "directive": "Summarize key challenges and opportunities in integrating AI into scientific research. Output format: Markdown.",
+            "task": "What are the challenges and opportunities for implementing AI in scientific research?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T21:40:00Z",
+            "promptcategory": "research-paper-article"
+        },
+        {
+            "id": 5,
+            "title": "Innovations in Diagnostics",
+            "usage": "For users researching innovative diagnostic methods beyond AI.",
+            "directive": "Write an introduction for a research paper focusing on innovative diagnostic methods other than AI. Output format: Markdown.",
+            "task": "I'm working on a paper about innovative diagnostic methods that don't involve AI. How should I start?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T21:40:00Z",
+            "promptcategory": "research-paper-article"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "collectionid": "education-topic-20230828",
+    "collectionname": "Educational Topic Prompts",
+    "collectionusage": "This collection is designed to help users explore, understand, and engage with various educational topics.",
+    "collectionrelease": "2023-08-28T16:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with a wide range of educational tasks. Whether you're a student, educator, or lifelong learner, I can help you understand complex topics, generate discussion questions, and more.",
+    "systemmessageusage": "Use these prompts to dive deeper into educational topics that interest you or to help facilitate learning in a classroom setting.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Explain a Complex Topic",
+            "usage": "Ideal for users who need a clear and concise explanation of a complex educational topic.",
+            "directive": "Explain the concept of photosynthesis in simple terms. Output format: Markdown.",
+            "task": "Can you explain photosynthesis to me in a way that's easy to understand?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T16:05:00Z",
+            "promptcategory": "education-topic"
+        },
+        {
+            "id": 2,
+            "title": "Generate Discussion Questions",
+            "usage": "Designed for educators who are looking for questions to facilitate classroom discussions.",
+            "directive": "Generate a list of discussion questions about climate change suitable for a high school classroom. Output format: Markdown.",
+            "task": "I'm teaching a high school science class and we're discussing climate change next week. What are some good discussion questions?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T16:05:00Z",
+            "promptcategory": "education-topic"
+        },
+        {
+            "id": 3,
+            "title": "Current Events Analysis",
+            "usage": "Useful for users who want to understand the implications of current events.",
+            "directive": "Analyze the educational impact of remote learning due to the COVID-19 pandemic. Output format: Markdown.",
+            "task": "How has remote learning during the COVID-19 pandemic impacted education?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T16:05:00Z",
+            "promptcategory": "education-topic"
+        },
+        {
+            "id": 4,
+            "title": "Historical Context",
+            "usage": "For users interested in understanding the historical context of a particular topic.",
+            "directive": "Provide the historical background of the American Civil Rights Movement. Output format: Markdown.",
+            "task": "Can you give me a historical overview of the American Civil Rights Movement?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T16:05:00Z",
+            "promptcategory": "education-topic"
+        },
+        {
+            "id": 5,
+            "title": "Future Trends in Education",
+            "usage": "Aimed at helping users understand what the future holds for education.",
+            "directive": "Discuss the future trends that are likely to shape education in the next decade. Output format: Markdown.",
+            "task": "What are some trends that will affect the future of education?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T16:05:00Z",
+            "promptcategory": "education-topic"
+        }
+    ]
+}

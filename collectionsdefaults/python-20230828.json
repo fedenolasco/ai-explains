@@ -1,0 +1,62 @@
+{
+    "collectionid": "python-20230828",
+    "collectionname": "Python Programming",
+    "collectionusage": "This collection aims to assist users in writing, debugging, and understanding Python code.",
+    "collectionrelease": "2023-08-28T12:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based AI trained to assist with a range of tasks, including Python programming. I can help you write, debug, and understand Python code effectively.",
+    "systemmessageusage": "Use these prompts to improve your Python programming skills, troubleshoot issues, or grasp complex concepts.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Python Function Explanation",
+            "usage": "Ideal for users who want to understand Python functions.",
+            "directive": "Explain how Python functions work. Output format: Markdown.",
+            "task": "How do I create a function in Python?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T08:23:25Z",
+            "promptcategory": "programming-write-debug-explain"
+        },
+        {
+            "id": 2,
+            "title": "Debug Python Code",
+            "usage": "For users who need to debug Python code.",
+            "directive": "Explain how to debug Python code. Output format: Markdown.",
+            "task": "My Python script isn't working. How do I debug it?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T08:23:25Z",
+            "promptcategory": "programming-write-debug-explain"
+        },
+        {
+            "id": 3,
+            "title": "Python Class Structures",
+            "usage": "For users interested in Python Object-Oriented Programming.",
+            "directive": "Explain the structure of Python classes. Output format: Markdown.",
+            "task": "What are classes in Python and how do they work?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T08:23:25Z",
+            "promptcategory": "programming-write-debug-explain"
+        },
+        {
+            "id": 4,
+            "title": "Python Libraries",
+            "usage": "Great for users looking to extend Python functionality with libraries.",
+            "directive": "List and explain some commonly used Python libraries. Output format: Markdown.",
+            "task": "What are some Python libraries that are commonly used and for what?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T08:23:25Z",
+            "promptcategory": "programming-write-debug-explain"
+        },
+        {
+            "id": 5,
+            "title": "Python Best Practices",
+            "usage": "For users aiming to write efficient and clean Python code.",
+            "directive": "Describe the best practices for writing Python code. Output format: Markdown.",
+            "task": "How can I write cleaner and more efficient Python code?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T08:23:25Z",
+            "promptcategory": "programming-write-debug-explain"
+        }
+    ]
+}

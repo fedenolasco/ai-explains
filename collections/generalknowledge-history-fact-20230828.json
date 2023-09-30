@@ -1,0 +1,62 @@
+{
+    "collectionid": "generalknowledge-history-fact-20230828",
+    "collectionname": "General Knowledge History Fact Prompts",
+    "collectionusage": "This collection aims to help users gain factual insights into various historical events, figures, and phenomena.",
+    "collectionrelease": "2023-08-28T23:59:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based AI trained to assist with a multitude of tasks, including providing factual information and insights about historical events, figures, and phenomena.",
+    "systemmessageusage": "Utilize these prompts to explore or seek clarifications on specific historical facts and topics.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Origin of Democracy",
+            "usage": "For users interested in the origins and early forms of democracy.",
+            "directive": "Provide a brief history on the origins of democracy. Output format: Markdown.",
+            "task": "Where did democracy originate?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "generalknowledge-history-fact"
+        },
+        {
+            "id": 2,
+            "title": "World War I Causes",
+            "usage": "For users seeking to understand the causes of World War I.",
+            "directive": "Discuss the primary causes of World War I. Output format: Markdown.",
+            "task": "What led to the outbreak of World War I?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "generalknowledge-history-fact"
+        },
+        {
+            "id": 3,
+            "title": "Facts About the Pyramids",
+            "usage": "For users curious about the pyramids, specifically in Egypt.",
+            "directive": "Provide interesting facts about the Egyptian pyramids. Output format: Markdown.",
+            "task": "What are some interesting facts about the Great Pyramid of Giza?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "generalknowledge-history-fact"
+        },
+        {
+            "id": 4,
+            "title": "Rise and Fall of Rome",
+            "usage": "For users interested in the historical narrative of the Roman Empire.",
+            "directive": "Describe the rise and fall of the Roman Empire. Output format: Markdown.",
+            "task": "What led to the fall of the Roman Empire?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "generalknowledge-history-fact"
+        },
+        {
+            "id": 5,
+            "title": "Civil Rights Movement",
+            "usage": "For users interested in the American Civil Rights Movement.",
+            "directive": "Outline key events in the American Civil Rights Movement. Output format: Markdown.",
+            "task": "Who were some of the key figures in the American Civil Rights Movement?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T23:59:00Z",
+            "promptcategory": "generalknowledge-history-fact"
+        }
+    ]
+}

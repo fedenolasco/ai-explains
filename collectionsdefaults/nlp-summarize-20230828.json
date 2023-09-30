@@ -1,0 +1,61 @@
+{
+    "collectionid": "nlp-summarize-20230828",
+    "collectionname": "NLP Summarization",
+    "collectionusage": "This collection is aimed at helping users grasp the concept, techniques, and applications of natural language processing in the field of text summarization.",
+    "collectionrelease": "2023-08-28T12:00:00Z",
+    "userskillfocus":["other"],
+    "systemmessage": "I'm an AI model designed to assist you in understanding and applying natural language processing (NLP) for text summarization. I can explain theories, methods, and best practices in this specialized field.",
+    "systemmessageusage": "You can use these prompts to deepen your understanding of text summarization techniques in NLP, evaluate various methods, and even get tips for your projects.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Introduction to NLP Text Summarization",
+            "usage": "Ideal for users new to the concept of text summarization in NLP.",
+            "directive": "Please provide an introduction to text summarization in the field of NLP. Output format: Markdown.",
+            "task": "What is text summarization in NLP?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:00:00Z",
+            "promptcategory": "nlp-summarize"
+        },
+        {
+            "id": 2,
+            "title": "Types of Text Summarization",
+            "usage": "For users who wish to know the various types of text summarization techniques.",
+            "directive": "Discuss the different types of text summarization techniques in NLP. Output format: Markdown.",
+            "task": "What are the different types of text summarization techniques in NLP?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:00:00Z",
+            "promptcategory": "nlp-summarize"
+        },
+        {
+            "id": 3,
+            "title": "Challenges in Text Summarization",
+            "usage": "For users interested in knowing the challenges and obstacles in the field of text summarization.",
+            "directive": "Explain the challenges and difficulties involved in NLP-based text summarization. Output format: Markdown.",
+            "task": "What are the challenges in NLP-based text summarization?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:00:00Z",
+            "promptcategory": "nlp-summarize"
+        },
+        {
+            "id": 4,
+            "title": "Evaluating Text Summarization Models",
+            "usage": "For users who need to assess the performance of text summarization models.",
+            "directive": "Explain the metrics and methods for evaluating text summarization models in NLP. Output format: Markdown.",
+            "task": "How do you evaluate the performance of a text summarization model?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:00:00Z",
+            "promptcategory": "nlp-summarize"
+        },
+        {
+            "id": 5,
+            "title": "Future of Text Summarization in NLP",
+            "usage": "For users who are curious about upcoming developments in text summarization.",
+            "directive": "Discuss future trends and potential advancements in the field of text summarization in NLP. Output format: Markdown.",
+            "task": "What are the future prospects for text summarization in NLP?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T12:00:00Z",
+            "promptcategory": "nlp-summarize"
+        }
+    ]
+}

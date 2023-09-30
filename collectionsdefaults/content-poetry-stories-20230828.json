@@ -1,0 +1,62 @@
+{
+    "collectionid": "content-poetry-stories-20230828",
+    "collectionname": "Content Poetry/Stories Prompts",
+    "collectionusage": "This collection is designed to inspire and guide users in the crafting of poems and stories across various themes and styles.",
+    "collectionrelease": "2023-08-28T14:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist with creative writing tasks, including poetry and storytelling. I can provide inspiration, guidance, and even generate sample content to get you started.",
+    "systemmessageusage": "Use these prompts to spark your creativity or overcome writer's block when working on poems or stories. They can be adapted for any level, whether you're a seasoned writer or a beginner.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Poetry Inspiration",
+            "usage": "Best for users looking for inspiration to write a poem.",
+            "directive": "Generate a list of poetic themes and a sample line for each. Output format: Markdown.",
+            "task": "I want to write a poem but need some inspiration. Can you give me some themes and sample lines?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T14:15:00Z",
+            "promptcategory": "content-poetry-stories"
+        },
+        {
+            "id": 2,
+            "title": "Story Ideas",
+            "usage": "Designed to help users brainstorm story ideas.",
+            "directive": "Provide a list of story ideas across different genres. Output format: Markdown.",
+            "task": "I want to write a short story. Could you give me some ideas?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T14:15:00Z",
+            "promptcategory": "content-poetry-stories"
+        },
+        {
+            "id": 3,
+            "title": "Developing Characters",
+            "usage": "This prompt assists users in developing rich characters for their stories.",
+            "directive": "Describe the process of creating compelling characters in a story. Output format: Markdown.",
+            "task": "How can I create compelling characters for my fantasy story?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T14:15:00Z",
+            "promptcategory": "content-poetry-stories"
+        },
+        {
+            "id": 4,
+            "title": "Writing Dialogue",
+            "usage": "Useful for users who want to improve their skills in writing dialogue.",
+            "directive": "Explain the techniques for writing natural and engaging dialogue. Output format: Markdown.",
+            "task": "How can I write dialogue that sounds natural and keeps the reader engaged?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T14:15:00Z",
+            "promptcategory": "content-poetry-stories"
+        },
+        {
+            "id": 5,
+            "title": "Poetry Structure",
+            "usage": "For users who want to understand the different structural elements of poetry.",
+            "directive": "Explain the various structural elements that can be used in poetry. Output format: Markdown.",
+            "task": "What are the different structural elements I can use in my poem?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T14:15:00Z",
+            "promptcategory": "content-poetry-stories"
+        }
+    ]
+}

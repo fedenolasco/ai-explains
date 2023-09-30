@@ -1,0 +1,62 @@
+{
+    "collectionid": "content-article-essay-report-20230828",
+    "collectionname": "Content Article/Essay/Report Prompts",
+    "collectionusage": "This collection aims to assist users in generating high-quality articles, essays, or reports on various topics.",
+    "collectionrelease": "2023-08-28T12:00:00Z",
+    "collectionmodel": ["gpt-4"],
+    "userskillfocus":["other"],
+    "systemmessage": "I am a text-based model trained to assist in the creation of articles, essays, and reports. I can help you brainstorm ideas, structure your thoughts, and even generate text that you can use as a starting point.",
+    "systemmessageusage": "These prompts can be used to help you get started with writing articles, essays, or reports. Whether you're a student, a professional, or simply someone interested in writing, these prompts can help.",
+    "usermessages": [
+        {
+            "id": 1,
+            "title": "Brainstorming Article Ideas",
+            "usage": "Best suited for users who are looking for ideas to start writing an article.",
+            "directive": "Provide a list of article ideas based on current trends. Output format: Markdown.",
+            "task": "I need some trending article ideas to write about for my blog.",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T13:45:00Z",
+            "promptcategory": "content-article-essay-report"
+        },
+        {
+            "id": 2,
+            "title": "Structuring an Essay",
+            "usage": "Aimed at helping users structure an essay effectively.",
+            "directive": "Explain how to structure an essay from introduction to conclusion. Output format: Markdown.",
+            "task": "How should I structure my essay on climate change?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T13:45:00Z",
+            "promptcategory": "content-article-essay-report"
+        },
+        {
+            "id": 3,
+            "title": "Creating a Report Outline",
+            "usage": "For users who need to create a detailed report outline.",
+            "directive": "Provide an outline for a report on the economic impact of COVID-19. Output format: Markdown.",
+            "task": "I need to create a report on the economic impact of COVID-19. Can you help me draft an outline?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T13:45:00Z",
+            "promptcategory": "content-article-essay-report"
+        },
+        {
+            "id": 4,
+            "title": "Improving Writing Style",
+            "usage": "This prompt aims to guide users on improving their writing style.",
+            "directive": "Provide tips to improve writing style for articles and essays. Output format: Markdown.",
+            "task": "How can I improve my writing style to make my articles more engaging?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T13:45:00Z",
+            "promptcategory": "content-article-essay-report"
+        },
+        {
+            "id": 5,
+            "title": "Citing Sources Effectively",
+            "usage": "For users who need guidance on how to cite sources in articles, essays, or reports.",
+            "directive": "Explain how to cite sources effectively in academic writing. Output format: Markdown.",
+            "task": "What are the best practices for citing sources in an academic paper?",
+            "lastupdatedby": "ChatGPT",
+            "lastupdated": "2023-08-28T13:45:00Z",
+            "promptcategory": "content-article-essay-report"
+        }
+    ]
+}

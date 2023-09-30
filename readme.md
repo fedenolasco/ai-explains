@@ -3,7 +3,7 @@
 * It was tested using OpenAI models released on June 13, 2023.
 * This single user application demonstrates some concepts of a multi-tenant generative AI orchestrator and includes prompt collection templates, a user prompt response generator that uses pre-existing prompt collections and a user search memory, allowing to revisit previous stored responses produced with a particular AI model.
 
-[!Watch This](https://github.com/fedenolasco/ai-explains/blob/master/images/ai-explains.png)](https://www.youtube.com/watch?v=dMkrbnyd0LM)
+[![Watch the video](https://github.com/fedenolasco/ai-explains/blob/master/images/ai-explains.png)]([https://youtu.be/T-D1KVIuvjA](https://www.youtube.com/watch?v=dMkrbnyd0LM))
 
 * [Youtube Video](https://www.youtube.com/watch?v=dMkrbnyd0LM)
 

@@ -3,7 +3,7 @@
 * It was tested using OpenAI models released on June 13, 2023.
 * This single user application demonstrates some concepts of a multi-tenant generative AI orchestrator and includes prompt collection templates, a user prompt response generator that uses pre-existing prompt collections and a user search memory, allowing to revisit previous stored responses produced with a particular AI model.
 
-* [![Watch Demo](https://github.com/fedenolasco/ai-explains/blob/master/images/ai-explains.png)]([https://youtu.be/T-D1KVIuvjA](https://www.youtube.com/watch?v=dMkrbnyd0LM))
+  [![Watch Demo](https://github.com/fedenolasco/ai-explains/blob/master/images/ai-explains.png)]([https://youtu.be/T-D1KVIuvjA](https://www.youtube.com/watch?v=dMkrbnyd0LM))
 
 # What is a multi-tenant Gen AI orchestrator
 * A multi-tenant orchestrator is an advanced system designed to manage the intricacies of deploying generative AI applications across multiple users or tenant groups. Its architecture is modular, with each component serving a specific function in the AI application workflow. Simon Attard introduced these concepts on June 20, 2023 in an article called [Leveraging Large Language Models in your Software Applications](https://medium.com/@simon_attard/leveraging-large-language-models-in-your-software-applications-9ea520fb2f34).

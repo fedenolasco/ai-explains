@@ -64,9 +64,6 @@ pip list
 ```
 (ai-explain) path/to/ai-explain> streamlit run "1_Concept and Architecture.py" 
 ```
-## Video Demo of ai-explain
-[Demo](https://github.com/fedenolasco/ai-explains/blob/master/demo.webm)
-
 # Opensource Community
 As we stand on the cusp of a new era in human-AI collaboration, the Single User AI Orchestrator Application offers a glimpse into the future of personalized and efficient interactions with generative AI systems. However, the vision is far grander—a robust, scalable, and secure multi-tenant orchestrator capable of serving diverse user needs across various domains. Achieving this vision is not a solitary endeavor but a collaborative one.
 

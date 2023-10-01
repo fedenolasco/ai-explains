@@ -53,6 +53,8 @@ pip install -r requirements.txt
 pip list
 ```
 ## Setup .env file
+All ES parameters related to Elastiocsearch installation and must be set when __ES_INSTALLED__=True.
+
 * Use .env.example file. Rename file to ".env".
 * __OPENAI_API_KEY__= # your API Key from ([platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys))
 * __ES_CA_CERT_PATH__=C:/path/to/config/http_ca.crt # In docker under elasticsearch container the http_ca.crt is located under /usr/share/elasticsearch/config/certs/.

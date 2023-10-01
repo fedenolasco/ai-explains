@@ -18,7 +18,7 @@
 * __Optional__: Use [Visual Studio Code](https://code.visualstudio.com/) Application as your coding environment.
 
 ## Clone Repository
-* git clone [URL-of-this-GitHub-repository] to your local system.
+* __git clone https://github.com/fedenolasco/ai-explains.git__ to your local coding folder.
 
 ## Create virtual environment for ai-explain app
 * /path/to/python3.11.14 -m venv ai-explain

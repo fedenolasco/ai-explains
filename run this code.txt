@@ -1,6 +1,0 @@
-# At the terminal console - activate your python environment
-& c:/python_env/ai-explain/Scripts/Activate.ps1
-
-# Go to your python application folder Example  cd C:\UsersCode\ai-explains and Run streamlit app
-streamlit run "1_Concept and Architecture.py" 
-

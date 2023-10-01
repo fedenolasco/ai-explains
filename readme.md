@@ -53,7 +53,7 @@ pip install -r requirements.txt
 pip list
 ```
 ## Setup .env file
-All ES parameters related to Elastiocsearch installation and must be set when __ES_INSTALLED__=True.
+All ES parameters relate to Elasticsearch installation and must be set when __ES_INSTALLED__=True.
 
 * Use .env.example file. Rename file to ".env".
 * __OPENAI_API_KEY__= # your API Key from ([platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys))

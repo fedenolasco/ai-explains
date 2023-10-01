@@ -54,13 +54,13 @@ pip list
 ```
 ## Setup .env file
 * Use .env.example file. Rename file to to ".env".
-* __OPENAI_API_KEY__= (your API Key from [platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys))
-* __ES_CA_CERT_PATH__=C:/path/to/config/http_ca.crt
-* The ES_CA_CERT_PATH is the path to the ca.crt file in the certs folder of the elasticsearch installation. In docker under elasticsearch container the http_ca.crt is located under /usr/share/elasticsearch/config/certs/. Take a copy of it and store it in your local machine and change the path of ES_CA_CERT_PATH in the .env file
-* __ES_USER__=(username of elastic user)
-* __ES_PASSWORD__=(password of elastic user)
-* __ES_INSTALLED__=False (If you don´t install Elasticsearch keep "False", otherwise change to "True")
-* __ES_INDEX__=searchmemory (This is the elasticsearch default´s index name)
+* __OPENAI_API_KEY__= # your API Key from ([platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys))
+* __ES_CA_CERT_PATH__=C:/path/to/config/http_ca.crt # In docker under elasticsearch container the http_ca.crt is located under /usr/share/elasticsearch/config/certs/.
+* Take a copy of it and store it in your local machine and change the path of ES_CA_CERT_PATH in the .env file
+* __ES_USER__= # (username of elastic user)
+* __ES_PASSWORD__= # (password of elastic user)
+* __ES_INSTALLED__=False # (If you don't install Elasticsearch keep "False", otherwise change to "True")
+* __ES_INDEX__=searchmemory # (This is the elasticsearch default´s index name)
 
 ## Running the application
 * Activate Virtual Environment ai-explain
